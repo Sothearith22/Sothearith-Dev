@@ -103,9 +103,3 @@ Laravel     █████████░ 45%
 Spring Boot ███████░░ 30%
 React       ██████░░░ 25%
 
-![github contribution grid snake animation](https://raw.githubusercontent.com/Sothearith22/Sothearith-Dev/output/github-snake.svg)
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sothearith22/Sothearith-Dev/output/github-snake.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sothearith22/Sothearith-Dev/output/github-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Sothearith22/Sothearith-Dev/output/github-snake.svg">
-</picture>
