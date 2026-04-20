@@ -73,7 +73,7 @@
 
 ## 🐍 Contribution Snake
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sothearith22/Sothearith22/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Sothearith22/Sothearith-Dev/output/github-contribution-grid-snake.svg" />
 </p>
 
 ---
@@ -102,4 +102,3 @@
 Laravel     █████████░ 45%
 Spring Boot ███████░░ 30%
 React       ██████░░░ 25%
-
