@@ -3,20 +3,30 @@ name: Generate Snake
 on:
   schedule:
     - cron: "0 0 * * *" # runs every day
-  workflow_dispatch:
+  workflow_dispatch: # allows you to run it manually
+
+permissions:
+  contents: write # Important: gives the bot permission to push the SVG
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Clone the repository
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Step 2: Generate the snake animation
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
           github_user_name: Sothearith22
           outputs: |
             dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
+      # Step 3: Push the results to the 'output' branch
       - name: Push to repository
         uses: crazy-max/ghaction-github-pages@v3
         with:
